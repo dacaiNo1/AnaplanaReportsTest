@@ -7,3 +7,4 @@ certifi
 statsmodels
 prophet
 plotly
+boto3
