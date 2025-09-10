@@ -1473,7 +1473,7 @@ def main():
                 c1, c2, c3 = st.columns([1.3, 1, 1])
                 with c1:
                     s3_bucket = st.text_input("S3 Bucket", value=_sec("s3_bucket", "your-bucket-name"))
-                    s3_prefix = st.text_input("S3 Key prefix (folder)", value=_sec("s3_prefix", "anaplan/imports"))
+                    s3_prefix = st.text_input("S3 Key prefix (folder)", value=_sec("s3_prefix", ""))
                 with c2:
                     aws_region = st.text_input("AWS Region", value=_sec("aws_region", "us-east-1"))
                     file_name  = st.text_input("File name", value="anaplan_forecast_version_all_lines.csv",
